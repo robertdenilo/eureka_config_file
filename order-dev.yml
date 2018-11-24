@@ -13,4 +13,4 @@ spring:
     show-sql: true
 person:
   name: xiaoming
-  age:88
+  age: 88
