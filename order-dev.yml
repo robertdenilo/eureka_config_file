@@ -12,5 +12,5 @@ spring:
   jpa:
     show-sql: true
 person:
-  name: xiaoshan
+  name: xiaomingdaren
   age: 88
