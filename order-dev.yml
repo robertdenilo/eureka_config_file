@@ -12,5 +12,5 @@ spring:
   jpa:
     show-sql: true
 person:
-  name: xiaoming
+  name: xiaomingALIBABA
   age: 88
