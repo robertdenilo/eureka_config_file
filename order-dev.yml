@@ -4,8 +4,6 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka
 spring:
-  application:
-    name: MyOrder
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     password: 123
@@ -13,3 +11,6 @@ spring:
     username: root
   jpa:
     show-sql: true
+person:
+  name: xiaoming
+  age:88
