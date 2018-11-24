@@ -1,3 +1,4 @@
+env: base
 eureka:
   client:
     service-url:
@@ -7,9 +8,8 @@ spring:
     name: MyOrder
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    username: root
     password: 123
     url: jdbc:mysql://127.0.0.1/jpa_new?serverTimezone=UTC&characterEncoding=UTF8&zeroDateTimeBehavior=convertToNull&useSSL=false
+    username: root
   jpa:
     show-sql: true
-env: dev
