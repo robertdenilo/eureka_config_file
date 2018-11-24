@@ -14,5 +14,3 @@ spring:
     show-sql: true
 env: dev
 label: release
-xxx
-sfdsa
