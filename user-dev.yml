@@ -1,9 +1,9 @@
 spring:
-  #datasource:
-  #  driver-class-name: com.mysql.jdbc.Driver
-  #  password: 123
-  #  url: jdbc:mysql://159.203.13.39/jpa_new?serverTimezone=UTC&characterEncoding=UTF8&zeroDateTimeBehavior=convertToNull&useSSL=false
-  #  username: ming
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    password: 123
+    url: jdbc:mysql://159.203.13.39/jpa_new?serverTimezone=UTC&characterEncoding=UTF8&zeroDateTimeBehavior=convertToNull&useSSL=false
+    username: ming
   jpa:
     show-sql: true
   rabbitmq:
