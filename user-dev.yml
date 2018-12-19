@@ -6,11 +6,11 @@ spring:
     username: ming
   jpa:
     show-sql: true
-  rabbitmq:
-    host: 159.203.12.180
-    port: 5672
-    username: guest
-    password: guest
+  #rabbitmq:
+  #  host: 159.203.12.180
+  #  port: 5672
+  #  username: guest
+  #  password: guest
   redis:
     host: localhost
     port: 6379
